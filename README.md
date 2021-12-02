@@ -11,4 +11,4 @@ My version of the app is at https://dr-webapp-sandbox.herokuapp.com/ until Herok
 
 Couple things to note:
 1. Heroku has a DB connection limit. I had some issues with connection leaks and reaching the connection limit in the past, but that doesn't seem to be an issue now. If the app is reporting inexplicable DB errors, that may be why.
-Single quotes (and probably some other sql stuff) breaks the sql query in the user registration page (and anywhere else, for that matter).
+2. Single quotes (and probably some other sql stuff) breaks the sql query in the user registration page (and anywhere else, for that matter).
