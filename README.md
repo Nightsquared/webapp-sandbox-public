@@ -5,3 +5,4 @@ Modifications needed to set up new instance:
 1. Change PROJECT_ROOT and ALT_ROOT in includes/constants.php to respective roots of the new instance.
 2. Change the database credentials in api/classes/postgres_heroku_db.php to the respective credentials for the new database. (this code *should* work with non-heroku postgres databases, but no guarantees).
 3. Optionally, change hardcoded text (mostly in index.php) to whatever you want.
+My version of the app is at https://dr-webapp-sandbox.herokuapp.com/ until Heroku starts charging me money or shuts down.
