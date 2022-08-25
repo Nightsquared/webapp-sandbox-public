@@ -1,8 +1,8 @@
 <?php
 const LOGO = "logo.png";
 
-const PROJECT_ROOT = "/app/WebApp/";
-const ALT_ROOT = "https://dr-webapp-sandbox.herokuapp.com/";
+const PROJECT_ROOT = "/home/david/www/archive/webapp-sandbox/";
+const ALT_ROOT = "http://parkerniko.com/archive/webapp-sandbox/";
 
 const COLOR1 = "#2A1E5C";
 const COLOR2 = "#CA054D";
