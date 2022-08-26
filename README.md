@@ -4,11 +4,9 @@ The public repo has everything relevant from the private repo, it just leaves ou
 
 Modifications needed to set up new instance:
 1. Change PROJECT_ROOT and ALT_ROOT in includes/constants.php to respective roots of the new instance.
-2. Change the database credentials in api/classes/postgres_heroku_db.php to the respective credentials for the new database. (this code *should* work with non-heroku postgres databases, but no guarantees).
+2. Change the database credentials in api/classes/postgres_heroku_db.php to the respective credentials for the new database.
 3. Optionally, change hardcoded text (mostly in index.php) to whatever you want.
 
-My version of the app is at https://dr-webapp-sandbox.herokuapp.com/ until Heroku starts charging me money or shuts down. It may take a few seconds to wake up initially. 
+My version of the app is currently hosted on [my website](http://parkerniko.com/archive/webapp-sandbox/).
 
-Couple things to note:
-1. Heroku has a DB connection limit. I had some issues with connection leaks and reaching the connection limit in the past, but that doesn't seem to be an issue now. If the app is reporting inexplicable DB errors, that may be why.
-2. Single quotes (and probably some other sql stuff) breaks the sql query in the user registration page (and anywhere else, for that matter).
+Note that single quotes (and probably some other sql stuff) breaks the sql query in the user registration page (and anywhere else, for that matter).
