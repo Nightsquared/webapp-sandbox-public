@@ -1,4 +1,4 @@
-# dr-webapp-sandbox-public
+# webapp-sandbox-public
 Public version of my webapp attack sandbox. This was a project for my Cybersecurity class in which I built a web application roughly mimicking web application features often seen in the wild. It was built (mostly) without security considerations so simple attacks could be demonstrated on the app.
 The public repo has everything relevant from the private repo, it just leaves out some extra files that were necessary for hosting the code on Heroku.
 
